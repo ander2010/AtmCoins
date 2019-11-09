@@ -1,0 +1,6 @@
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\bin\Debug\AtmCoins.exe.config
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\bin\Debug\AtmCoins.exe
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\bin\Debug\AtmCoins.pdb
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\obj\Debug\AtmCoins.csproj.CoreCompileInputs.cache
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\obj\Debug\AtmCoins.exe
+C:\Users\letal\source\repos\AtmCoins\AtmCoins\obj\Debug\AtmCoins.pdb

@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoinsTest\\AtmCoinsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoinsTest\\AtmCoinsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoinsTest\\AtmCoinsTest.csproj",
+        "projectName": "AtmCoinsTest",
+        "projectPath": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoinsTest\\AtmCoinsTest.csproj",
+        "packagesPath": "C:\\Users\\letal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoinsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\letal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoins\\AtmCoins.csproj": {
+                "projectPath": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoins\\AtmCoins.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoins\\AtmCoins.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoins\\AtmCoins.csproj",
+        "projectName": "AtmCoins",
+        "projectPath": "C:\\Users\\letal\\Downloads\\AtmCoins\\AtmCoins\\AtmCoins.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
