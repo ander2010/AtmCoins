@@ -4029,7 +4029,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "+Q9C9+hxTCutB7DUQjGqlPDasY7/tT32vjYGPfMHYlZKHiM0k0wpcJdHcvvk6l0052UyefvVjhub/1nQktNBtg==",
+      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -4812,7 +4812,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "LfHrqz0ucCISTh6xzTWcb66xAhqgRR0n8FWHvNib2caWK35R6FCDj9b8vAbPQTCk800zDT5X2VraZznTnRJFTg==",
+      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
