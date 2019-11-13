@@ -93,7 +93,6 @@ namespace AtmCoins
                     removedGarbage = item.Replace("$", "").Trim();                
                 PrintBills(removedGarbage);
             }
-
         }
 
         // summary: when you press R all Bills is reloading with parameters for default       
