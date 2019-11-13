@@ -9,41 +9,22 @@ namespace AtmCoins
 {
     public class Program
     {
-
         //summary: Mainly the structure with the structure of the bills        
-        static Dictionary<string, int> Bills = new Dictionary<string, int> {
-   {
-    "100",
-    10
-   },
-   {
-    "50",
-    10
-   },
-   {
-    "20",
-    10
-   },
-   {
-    "10",
-    10
-   },
-   {
-    "5",
-    10
-   },
-   {
-    "1",
-    10
-   },
-  };
+        static Dictionary<string, int> Bills = new Dictionary<string, int> 
+    {
+   {"100",10},
+   {"50",10},
+   {"20",10},
+   {"10",10},
+   {"5",10},
+   {"1",10},
+    };
 
         private static bool CheckRegularExpresion(string option, Regex rgx)
         {
             if (rgx.IsMatch(option))
                 return true;
             return false;
-
         }
 
         public static Dictionary<string, int> BillsProperty
@@ -93,7 +74,6 @@ namespace AtmCoins
                 }
                 catch (Exception e)
                 {
-
                     Console.WriteLine(e.Message);
                 }
             }
@@ -149,7 +129,6 @@ namespace AtmCoins
                     Console.WriteLine("Failure: insufficient funds");
                     Restauring(solution);
                     break;
-
                 }
             }
             if (!errors)
@@ -157,7 +136,6 @@ namespace AtmCoins
                 Console.WriteLine("Success:Dispensed ${0}", debitRetire);
                 PrintBills(BillsProperty);
             }
-
         }
 
 
@@ -166,10 +144,8 @@ namespace AtmCoins
         private static void Restauring(List<int> solution)
         {
             for (int i = 0; i < solution.Count - 1; i++)            
-                BillsProperty[solution[i].ToString()] = BillsProperty[solution[i].ToString()] + 1;
-            
+                BillsProperty[solution[i].ToString()] = BillsProperty[solution[i].ToString()] + 1;            
         }
-
 
         //param name="dif" is the difference  that I need to check
         //summary: this function  choose the ideal coin         
@@ -195,19 +171,15 @@ namespace AtmCoins
             return betterResultSelection;
         }
 
-
         // summary print the full amount of money
         //param name="BillsATM" data structure for saving the information, in this case, is where I am saving the kind of money and the amount       
         static void PrintBills(Dictionary<string, int> BillsATM)
         {
             Console.WriteLine("Machine balance:");
             foreach (var keyValuePair in BillsATM)            
-                Console.WriteLine("${0}-{1}", keyValuePair.Key, keyValuePair.Value);
-
-            
+                Console.WriteLine("${0}-{1}", keyValuePair.Key, keyValuePair.Value);            
             Console.WriteLine("--------------------------------------------");
         }
-
 
         //summary print the  amount of money of the one kind of currency
         //param name="keyOfBills" this parameter is the entrance of the 1 key for knowing how many currencies exist.
