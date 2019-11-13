@@ -77,7 +77,6 @@ namespace AtmCoins
                     Console.WriteLine(e.Message);
                 }
             }
-
             Console.ReadLine();
         }
 
@@ -91,8 +90,7 @@ namespace AtmCoins
             {
                 removedGarbage = item;
                 if (item.Contains("$"))                
-                    removedGarbage = item.Replace("$", "").Trim();
-                
+                    removedGarbage = item.Replace("$", "").Trim();                
                 PrintBills(removedGarbage);
             }
 
